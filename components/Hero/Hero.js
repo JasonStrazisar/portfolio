@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./hero.module.css";
+import Image from "next/image";
 
 const Hero = () => (
   <div>
@@ -7,11 +8,11 @@ const Hero = () => (
     <p className={styles.hero__subtitle}>
       I'm a{" "}
       <span>
-        <img id="react" src="/react.png" />
+        <Image width="30px" height="26px" src="/react.png" />
       </span>{" "}
       developer. Spending my time at{" "}
       <span id="dvore">
-        <img src="/dvore.png" />
+        <Image width="30px" height="43px" src="/dvore.png" />
       </span>
       {"  "}
       helping building the best BI tool for restaurants.
