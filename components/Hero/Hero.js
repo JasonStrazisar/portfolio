@@ -6,7 +6,7 @@ const Hero = () => (
   <div>
     <h1 className={styles.hero__title}>Jason Strazisar</h1>
     <p className={styles.hero__subtitle}>
-      I'm a{" "}
+      I&apos;m a{" "}
       <span>
         <Image width="30px" height="26px" src="/react.png" />
       </span>{" "}
