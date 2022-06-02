@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./Layout.module.css";
+import styles from "./layout.module.css";
 
 const Logo = () => (
   <h1 className="text-primary font-medium text-2xl text-white">
@@ -28,7 +28,6 @@ const Header = ({}) => (
 
 const Layout = ({ children }) => (
   <div className={styles.layout}>
-    <Header />
     <main>{children}</main>
   </div>
 );

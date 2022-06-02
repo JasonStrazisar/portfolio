@@ -1,6 +1,7 @@
 .hero {
-  padding: var(--spacing-11) var(--padding-x);
-  width: 40%;
+  width: 60%;
+  padding-top: var(--spacing-11);
+  padding-bottom: var(--spacing-12);
 }
 
 .hero__title {

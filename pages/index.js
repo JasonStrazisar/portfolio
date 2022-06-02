@@ -1,7 +1,11 @@
-import { Hero } from "../components";
+import { Hero, Layout } from "../components";
 
 const Heading = () => <div></div>;
 
 export default function Home() {
-  return <Hero />;
+  return (
+    <Layout>
+      <Hero />
+    </Layout>
+  );
 }
