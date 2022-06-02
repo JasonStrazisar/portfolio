@@ -6,6 +6,6 @@
 @media only screen and (max-width: 672px) {
   .layout {
     padding: 0 var(--spacing-6);
-    width: 100%;
+    width: calc(100% - calc(var(--spacing-6) * 2));
   }
 }
