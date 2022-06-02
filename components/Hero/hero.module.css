@@ -21,7 +21,7 @@
 
 @media only screen and (max-width: 672px) {
   .hero {
-    padding: var(--spacing-12) var(--spacing-6);
+    padding: var(--spacing-12) 0;
     width: 100%;
   }
 }
