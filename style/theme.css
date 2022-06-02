@@ -7,8 +7,11 @@
 
   --primary-default: #a996ff;
 
+  --accent-green: #a6f787;
+
   /* Typography theme */
   --display-xs: 1.5rem;
+  --body-medium: 1.125rem;
   --body-small: 1rem;
   --font-bold: 700;
   --font-regular: 400;
@@ -29,5 +32,5 @@
   --spacing-0: 2px;
 
   /* Layout */
-  --padding-x: 180px;
+  --padding-x: 120px;
 }

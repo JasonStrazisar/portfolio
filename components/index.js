@@ -1,2 +1,2 @@
 export { Layout } from "./Layout";
-export { Hero } from "./Hero";
+export { Hero, WorkSection } from "./Home";

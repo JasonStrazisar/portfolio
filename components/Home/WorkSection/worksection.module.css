@@ -1,0 +1,15 @@
+.work_section {
+  background-color: var(--grayscale-ash);
+  height: 10vh;
+  margin-left: -120px;
+  width: 100%;
+  padding: var(--spacing-7) var(--padding-x);
+}
+
+@media only screen and (max-width: 672px) {
+  .work_section {
+    margin-left: -24px;
+    width: 100%;
+    padding: var(--spacing-7) var(--spacing-6);
+  }
+}

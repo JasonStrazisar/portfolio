@@ -1,11 +1,10 @@
-import { Hero, Layout } from "../components";
-
-const Heading = () => <div></div>;
+import { Hero, Layout, WorkSection } from "../components";
 
 export default function Home() {
   return (
     <Layout>
       <Hero />
+      <WorkSection />
     </Layout>
   );
 }

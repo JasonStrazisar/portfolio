@@ -1,5 +1,9 @@
 @import "./theme.css";
 
+html {
+  font-size: 20px;
+}
+
 body {
   background-color: var(--grayscale-offBlack);
   margin: 0;
@@ -7,7 +11,6 @@ body {
   line-height: 0;
   font-family: "Poppins", sans-serif;
   width: 100%;
-  font-size: 20px;
 }
 
 h1 {
@@ -18,8 +21,20 @@ h1 {
   color: var(--grayscale-offWhite);
 }
 
+h2 {
+  font-size: var(--body-medium);
+  font-weight: var(--font-regular);
+  line-height: 32px;
+  letter-spacing: 1px;
+  color: var(--grayscale-line);
+  width: fit-content;
+  padding-bottom: var(--spacing-4);
+
+  border-bottom: 2px solid var(--accent-green);
+}
+
 @media only screen and (max-width: 672px) {
-  body {
+  html {
     font-size: 16px;
   }
 }
