@@ -1,0 +1,21 @@
+@import "./theme.css";
+
+html {
+  font-size: 20px;
+}
+
+body {
+  background-color: var(--grayscale-offBlack);
+  margin: 0;
+  padding: 0;
+  line-height: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  font-size: var(--display-xs);
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 1px;
+  color: var(--grayscale-offWhite);
+}
