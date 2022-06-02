@@ -1,26 +1,26 @@
 .hero {
-}
-
-.hero__title {
-  font-weight: 900;
-  font-size: 4rem;
-  line-height: 0;
-}
-
-.hero__subtitle {
-  font-weight: 600;
-  font-size: 1.5rem;
-  line-height: 2rem;
+  padding: var(--spacing-11) var(--padding-x);
   width: 40%;
 }
 
-.hero__subtitle span {
-  margin: 0 5px;
-  margin-bottom: -15px;
-  cursor: pointer;
-  transition: transform 0.2s ease-in-out;
+.hero__title {
+  color: var(--grayscale-offWhite);
 }
 
-.hero__subtitle span:hover {
-  transform: scale(1.3) rotate(22.5deg);
+.hero__title span {
+  color: var(--primary-default);
+}
+
+.hero__subtitle {
+  color: var(--grayscale-line);
+  font-size: var(--body-small);
+  margin-bottom: var(--spacing-8);
+  line-height: 32px;
+}
+
+@media only screen and (max-width: 672px) {
+  .hero {
+    padding: var(--spacing-12) var(--spacing-6);
+    width: 100%;
+  }
 }
