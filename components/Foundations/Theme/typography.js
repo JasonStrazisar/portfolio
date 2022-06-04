@@ -4,9 +4,9 @@ const typography = {
   },
   globalFontSize: {
     desktopLg: "24px",
-    desktop: "20px",
-    tablet: "18px",
-    mobile: "16px",
+    desktop: "22px",
+    tablet: "20px",
+    mobile: "18px",
   },
 
   fontSize: {
