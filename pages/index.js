@@ -1,10 +1,10 @@
-import { Hero, Layout, WorkSection } from "../components";
+import { Hero, BaseLayout, WorkSection } from "../components";
 
 export default function Home() {
   return (
-    <Layout>
+    <BaseLayout>
       <Hero />
       <WorkSection />
-    </Layout>
+    </BaseLayout>
   );
 }
