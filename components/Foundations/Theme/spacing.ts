@@ -15,10 +15,10 @@ const spacing = {
   13: "160px",
 
   breakpoints: {
-    mobile: "480px",
-    tablet: "768px",
-    desktop: "1024px",
-    desktopLg: "1280px",
+    mobile: 480,
+    tablet: 768,
+    desktop: 1024,
+    desktopLg: 1280,
   },
 };
 

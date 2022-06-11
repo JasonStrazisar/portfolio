@@ -1,7 +1,7 @@
 import React from "react";
-import { HeroContainer, HeroSubtitle, HeroTitle } from "./hero.style";
+import { HeroContainer, HeroSubtitle, HeroTitle } from "./Hero.style";
 
-const Hero = () => (
+const Hero = (): JSX.Element => (
   <HeroContainer>
     <HeroSubtitle>Hey! I&apos;m Jason 👋</HeroSubtitle>
     <HeroTitle>

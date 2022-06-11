@@ -1,28 +1,29 @@
+import { useState, useEffect } from "react";
 import { useTheme } from "styled-components";
 
 function useResponsiveBreakpoints() {
-  const { breakpoints: themeBreakpoints } = useTheme();
+  const { spacing } = useTheme();
   const [breakpoints, setBreakpoints] = useState("");
 
   function handleScreenSizeChange() {
     const screenWidth = window.innerWidth;
 
-    if (screenWidth >= themeBreakpoints.desktopLg) {
+    if (screenWidth >= spacing.breakpoints.desktopLg) {
       setBreakpoints("desktopLg");
       return;
     }
 
-    if (screenWidth >= themeBreakpoints.desktop) {
+    if (screenWidth >= spacing.breakpoints.desktop) {
       setBreakpoints("desktop");
       return;
     }
 
-    if (screenWidth >= themeBreakpoints.tablet) {
+    if (screenWidth >= spacing.breakpoints.tablet) {
       setBreakpoints("tablet");
       return;
     }
 
-    if (screenWidth >= themeBreakpoints.mobile) {
+    if (screenWidth >= spacing.breakpoints.mobile) {
       setBreakpoints("mobile");
       return;
     }

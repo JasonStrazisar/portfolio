@@ -1,5 +1,4 @@
 import React from "react";
-import { Card } from "../..";
 import { CardList } from "..";
 import { WorkSectionContainer, WorkSectionTitle } from "./WorkSection.style";
 
@@ -36,7 +35,7 @@ const cardList = [
   },
 ];
 
-const WorkSection = ({ worksList }) => (
+const WorkSection = (): JSX.Element => (
   <WorkSectionContainer>
     <WorkSectionTitle>Last Things I Worked On</WorkSectionTitle>
     <CardList cardList={cardList} />

@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import Image from "next/image";
+import { CardTitleProps } from "./Card.interface";
 
 export const CardContainer = styled.div`
   cursor: pointer;
@@ -32,7 +33,7 @@ export const CardImage = styled(Image)`
   }
 `;
 
-export const CardTitle = styled.p`
+export const CardTitle = styled.p<CardTitleProps>`
   color: ${(props) => props.theme.colors.grayScale.offWhite};
   font-weight: ${(props) => props.theme.typography.fontWeight.bold};
   width: ${(props) => props.width};
